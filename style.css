@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Hacked-KerX';
+    src: url('/Hacked-KerX.ttf') format('truetype');
+    font-variant-caps:all-small-caps;
+    
+}
+
+body
+{
+    background-color: black;
+    font-family: 'Hacked-KerX';
+    color:lime;
+}
+
+.top_section{
+    text-align: center;
+}
+
+.bottom_section{
+    position:fixed;
+    font-size:x-small;
+    bottom:0%;
+    
+}
+
+.bottom{
+   display:inline-block; 
+
+}
+
+.font_credits{
+    height: fit-content;
+    width: fit-content;
+    position:fixed;
+    bottom:0%;
+    left:1%;
+
+}
+
+.my_credit{
+    height:fit-content;
+    width: fit-content;
+    position: fixed;
+    bottom:0%;
+    right:1%;
+}
